@@ -1,0 +1,16 @@
+<div class="navigation-menu">
+    <a class="navigation-menu__trigger" id="navigation-menu-trigger" href>
+        <span class="navigation-menu__icon-default icon-burger-menu"></span>
+        <span class="navigation-menu__icon-close icon-close-menu"></span>
+    </a>
+    <div class="navigation-menu__list" id="navigation-menu-list">
+        {{ range $link := site.Params.mainContent.navigationLinks}}
+            <div class="navigation-menu__link-container">
+                <a class="navigation-menu__link" href="{{ absURL $link.link}}">
+                    {{ $link.name }}
+                </a>
+            </div>
+        {{ end }}
+    </div>
+    <div class="navigation-menu__background"></div>
+</div>

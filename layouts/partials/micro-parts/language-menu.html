@@ -1,0 +1,25 @@
+<div class="language-menu">
+    <div class="language-menu__current-language">
+        <a class="language-menu__trigger" id="language-menu-trigger" href>
+            <img class="language-flag" src="{{ absURL ( index site.Params.mainContent.languageImages site.Language )}}"
+                alt="language_flag">
+            <span class="language-menu__short-current-language">{{ index site.Params.mainContent.shortLanguageNames
+                site.Language
+                }}</span>
+            <span class="icon-arrow-menu"></span>
+        </a>
+    </div>
+    <div class="language-menu__list" id="language-menu-list">
+        {{ range $language := site.Languages}}
+            {{ if ne $language site.Language}}
+                <div class="language-menu__link-container">
+                    <a class="language-menu__link" href="{{ absURL $language.LanguageCode}}">
+                        <img class="language-flag"
+                            src="{{ absURL ( index site.Params.mainContent.languageImages $language.LanguageCode )}}" alt="language_flag">
+                        <span class="language-menu__language-name">{{ $language.LanguageName }}</span>
+                    </a>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<!-- Меню -->
+<div class="menu">
+    <div class="menu__part">
+        <!-- Выбор языка -->
+        <div class="menu__select-language">
+            {{ partial "micro-parts/language-menu.html" . }}
+        </div>
+        <!-- Основная навигация -->
+        <div class="menu__nav">
+            {{ partial "micro-parts/navigation-menu.html" . }}
+        </div>
+    </div>
+    <div class="menu__part">
+        <!-- Социалки -->
+        <div class="menu__socials">
+            {{ partial "micro-parts/socials.html" . }}
+        </div>
+    </div>
+</div>

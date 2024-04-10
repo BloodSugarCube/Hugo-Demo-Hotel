@@ -1,0 +1,8 @@
+{{ define "main" }}
+    <!-- Пример мультиязычности с использованием config файла -->
+    <!--<h3>{{ index site.Params.mainContent.text site.Language }}</h3>-->
+    <!--<h3>{{ index site.Params.mainContent.address site.Language }}</h3>-->
+    <section class="hotel-image">
+        <img src="{{ absURL site.Params.mainContent.imageUrl }}" alt="hotel_image">
+    </section>
+{{ end }}

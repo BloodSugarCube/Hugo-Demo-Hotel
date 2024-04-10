@@ -1,0 +1,10 @@
+<!-- Шапка сайта -->
+{{ partial "parts/menu.html" . }}
+<section class="logo-space">
+    <span class="horizontal-line"></span>
+    <div class="logo-space__horizontal-logo">
+        <img src="{{ absURL site.Params.mainContent.horizontalLogoUrl }}" alt="hotel_logo">
+    </div>
+    <span class="horizontal-line"></span>
+</section>
+{{/*  <h2>Текущий язык: {{ site.Language.LanguageName }}</h2>  */}}

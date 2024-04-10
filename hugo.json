@@ -1,0 +1,104 @@
+{
+  "baseURL": "http://localhost:4200/assets/demo-hotel",
+  "languageCode": "ru-ru",
+  "defaultContentLanguage": "ru-ru",
+  "title": "Демо отель",
+  "disableKinds": [
+    "page",
+    "taxonomy",
+    "RSS"
+  ],
+  "languages": {
+    "ru-ru": {
+      "languageName": "Русский",
+      "languageCode": "ru-ru",
+      "title": "Демо отель"
+    },
+    "en-gb": {
+      "languageName": "English",
+      "languageCode": "en-gb",
+      "title": "Demo hotel"
+    },
+    "bel": {
+      "languageName": "Белоруский",
+      "languageCode": "bel",
+      "title": "Дэма гатэль"
+    },
+    "cez": {
+      "languageName": "Český",
+      "languageCode": "cez",
+      "title": "Demo hotel"
+    }
+  },
+  "params": {
+    "languageSelectorType": "text",
+    "mainContent": {
+      "imageUrl": "img/hotel-image.png",
+      "horizontalLogoUrl": "img/horizontal-logo.png",
+      "backgroundColor": "#5d6569",
+      "textColor": "#e8e6e3",
+      "shortLanguageNames": {
+        "ru-ru": "РУ",
+        "en-gb": "ENG",
+        "bel": "БЛР",
+        "cez": "CEZ"
+      },
+      "languageImages": {
+        "ru-ru": "img/flags/ru.svg",
+        "en-gb": "img/flags/en.svg",
+        "bel": "img/flags/by.svg",
+        "cez": "img/flags/cz.svg"
+      },
+      "navigationLinks": [
+        {
+          "name": "О гостиннице",
+          "link": ""
+        },
+        {
+          "name": "Мебелированые комнаты",
+          "link": ""
+        },
+        {
+          "name": "Спецпредложения",
+          "link": ""
+        },
+        {
+          "name": "Рестораны и бары",
+          "link": ""
+        },
+        {
+          "name": "Услуги",
+          "link": ""
+        },
+        {
+          "name": "Конференц-залы",
+          "link": ""
+        },
+        {
+          "name": "Экскурсии",
+          "link": ""
+        },
+        {
+          "name": "Экскурсии",
+          "link": ""
+        },
+        {
+          "name": "Фотогалерея",
+          "link": ""
+        },
+        {
+          "name": "Отзывы",
+          "link": ""
+        },
+        {
+          "name": "Контакты",
+          "link": ""
+        },
+        {
+          "name": "Бронирование",
+          "link": ""
+        }
+      ]
+    }
+  }
+}
