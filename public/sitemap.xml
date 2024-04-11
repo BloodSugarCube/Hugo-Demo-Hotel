@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:4200/assets/demo-hotel/ru-ru/sitemap.xml</loc>
+    <loc>//localhost:1313/ru-ru/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:4200/assets/demo-hotel/bel/sitemap.xml</loc>
+    <loc>//localhost:1313/bel/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:4200/assets/demo-hotel/cez/sitemap.xml</loc>
+    <loc>//localhost:1313/cez/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:4200/assets/demo-hotel/en-gb/sitemap.xml</loc>
+    <loc>//localhost:1313/en-gb/sitemap.xml</loc>
     
   </sitemap>
   

@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4200/assets/demo-hotel/</loc>
+    <loc>//localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cez"
-                href="http://localhost:4200/assets/demo-hotel/cez/"
+                href="//localhost:1313/cez/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-gb"
-                href="http://localhost:4200/assets/demo-hotel/en-gb/"
+                href="//localhost:1313/en-gb/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bel"
-                href="http://localhost:4200/assets/demo-hotel/bel/"
+                href="//localhost:1313/bel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-ru"
-                href="http://localhost:4200/assets/demo-hotel/"
+                href="//localhost:1313/"
                 />
   </url>
 </urlset>
